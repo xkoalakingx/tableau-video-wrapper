@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Genesis Prestige Video</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    video {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <video autoplay muted loop playsinline preload="auto">
+    <source src="genesis-prestige.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
